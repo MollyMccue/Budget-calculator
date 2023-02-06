@@ -2,3 +2,78 @@ body {
  background-color: #002769;
  background-image:url("https://www.transparenttextures.com/patterns/strange-bullseyes.png") ;
 }
+
+* {
+    font-family: 'PT Sans', sans-serif;;
+}
+
+.logo {
+    background-color: rgb(32, 62, 151);
+    margin-right: 300px;
+    height: 5vh;
+}
+
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5px;
+}
+
+.balance {
+    background-color: #002769;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.transaction {
+    background-color: #002769;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.bluetext {
+    color: black;
+    text-align: right;
+}
+
+.contactname {
+    color: black;
+}
+
+.mainfootersection1 {
+    background-color: rgb(187, 187, 187);
+    height: 20%;
+    justify-content: center;
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+}
+
+.footerimg {
+    height: 30%;
+}
+
+.NavLinks {
+    color:white;
+    background-color:#002769;
+    padding-left: 5px;
+    padding-right: 5px;
+    /* height: 30px; */
+}
+
+.payperiod {
+    background-color: rgb(187, 187, 187);
+    font-size: large;
+}
+
+.Taxes {
+color: black;
+flex-direction: column;
+}
+
+.Questions {
+    color: black;
+    background-color: rgb(187, 187, 187);
+}
