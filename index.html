@@ -23,12 +23,23 @@
                 <div class="Questions">
                     <div class="indexcontentone">
                         <p>1. What is your Career Option?</p>
+                        <form action="">
+                            <label for="Transaction"></label><br>
+                            <input type="text" id="transaction" transaction="transaction"><br>
+                            </form>
                     </div>
                     <div class="indexcontentone">
                         <p>2. What is your Gross Annual Income?</p>
+                        <label for="Transaction"></label><br>
+                            <input type="text" id="transaction" transaction="transaction"><br>
+                            </form>
                     </div>
                     <div class="indexcontentone">
                         <p>3. What is your Gross Monthly Income?</p>
+                        <small>Annual Income Divided By 12</small>
+                            <label for="Transaction"></label><br>
+                            <input type="text" id="transaction" transaction="transaction"><br>
+                            </form>
                     </div>
                 </div>
                 <div class="payperiod">
@@ -37,8 +48,9 @@
                     </div>
                     <div class="Dropdown">
                         <form action="">
-                            <label for="cars">Choose a Career:</label>
-                            <select name="cars" id="cars">
+                            <label for="Careers">Choose a Career:</label>
+                            <select name="career" id="career">
+                            <option value="$55,650.00">Choose a Career</option>
                             <option value="$55,650.00">Accountant</option>
                             <option value="$53,550.00">Advance Tractor/Trailer Driver </option>
                             <option value="$56,700.00">Agricultural Engineer </option>
@@ -57,14 +69,14 @@
                             <option value="$72,450.00">Computer Technician </option>
                             <option value="$48,300.00">Conserv./Environ. Science</option>
                             <option value="$36,750.00">Corectional Officer</option>
-                            <option value="$61,950.00">Chef</option>
-                            <option value="$37,800.00">Chef</option>
-                            <option value="$115,500.00">Chef</option>
-                            <option value="$60,900.00">Chef</option>
-                            <option value="$147,000.00">Chef</option>
-                            <option value="$54,600.00">Chef</option>
-                            <option value="$75,600.00">Chef</option>
-                            <option value="$34,650.00 ">Chef</option>
+                            <option value="$61,950.00"></option>
+                            <option value="$37,800.00"></option>
+                            <option value="$115,500.00"></option>
+                            <option value="$60,900.00"></option>
+                            <option value="$147,000.00"></option>
+                            <option value="$54,600.00"></option>
+                            <option value="$75,600.00"></option>
+                            <option value="$34,650.00 "></option>
                             </select>
                             <br><br>
                         <input type="submit" value="Submit">
@@ -72,13 +84,35 @@
                         <!-- some of code the form code from w3school -->
                     </div>
                     <div class="Taxes">
-                        <p>Federal Taxes</p>
-                        <p>State Taxes</p>
-                        <p>Social Security</p>
-                        <p>Medicare</p>
-                        <p>State Disability</p>
-                        <p>Retirement Investment</p>
-                        <p>Medical Insurance</p>
+                        <p>Federal Taxes                    12%  x   0.12   =  </p>
+                        <label for="Transaction"></label><br>
+                        <input type="text" id="transaction" transaction="transaction"><br>
+                        </form>
+                        <p>State Taxes                        7%  x   0.07   =  </p>
+                        <label for="Transaction"></label><br>
+                        <input type="text" id="transaction" transaction="transaction"><br>
+                        </form>
+                        <p>Social Security             6.2%  x   0.062   =  </p>
+                        <label for="Transaction"></label><br>
+                        <input type="text" id="transaction" transaction="transaction"><br>
+                        </form>
+                        <p>Medicare                    1.45%  x   0.0145   =  </p>
+                        <label for="Transaction"></label><br>
+                        <input type="text" id="transaction" transaction="transaction"><br>
+                        </form>
+                        <p>State Disability                    1%  x  0.01   =  </p>
+                        <label for="Transaction"></label><br>
+                        <input type="text" id="transaction" transaction="transaction"><br>
+                        </form>
+                        <p>Retirement Investment      5%  x   0.05   =  </p>
+                        <label for="Transaction"></label><br>
+                        <input type="text" id="transaction" transaction="transaction"><br>
+                        </form>
+                        <p>Medical Insurance                      $ 180.00 = </p>
+                        <label for="Transaction"></label><br>
+                        <input type="text" id="transaction" transaction="transaction"><br>
+                        </form>
+                        <!-- some of the code is from w3 schools -->
                     </div>
                     <div class="TotalDeductions">
                         <h2>Total Deductions:</h2>
