@@ -7,11 +7,6 @@ body {
     font-family: 'PT Sans', sans-serif;;
 }
 
-.logo {
-    margin-left: 1px;
-    height: 10px;
-    width: 10px;
-}
 
 .nav {
     display: flex;
@@ -53,11 +48,18 @@ body {
 }
  
 .NavLinks {
-    color:white;
-    background-color:#002769;
-    
-    /* height: 30px; */
+    color:rgb(255, 255, 255);
+    background-color:#5c739c;
+    height: 80px;
+    margin-top: 25px;
+    width: 20vh;
+    font-size: larger;
 }
+
+a:hover{
+    color: white;
+}
+
 
 .payperiod {
     background-color: rgb(187, 187, 187);
@@ -67,13 +69,48 @@ body {
 .Taxes {
 color: black;
 flex-direction: column;
+font-size: x-large;
 }
 
 .Questions {
     color: black;
     background-color: rgb(187, 187, 187);
+    font-size: x-large;
 }
 
 .indexcontentone {
     justify-content: left;
+}
+
+.currenttext {
+    flex-direction: column;
+}
+
+.Transactiontd {
+    flex-wrap: wrap;
+}
+
+.whiteText {
+font-size: 60px;
+}
+
+.nav {
+    background-color: rgb(187, 187, 187);
+    width: auto;
+    height: 10vh;
+}
+
+.logoimg {
+    height: 15vh;
+    position: relative;
+    right: 21vh;
+    bottom: 3vh;
+}
+
+.NavLinksh2 {
+    margin-left: 30px;
+}
+
+.footerimg {
+    justify-content: center;
 }
