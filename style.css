@@ -51,7 +51,7 @@ body {
     color:rgb(255, 255, 255);
     background-color:#5c739c;
     height: 80px;
-    margin-top: 25px;
+    margin-top: 15px;
     width: 20vh;
     font-size: larger;
 }
@@ -101,14 +101,15 @@ font-size: 60px;
 }
 
 .logoimg {
-    height: 15vh;
+    height: 17vh;
     position: relative;
     right: 21vh;
-    bottom: 3vh;
+    bottom: 4vh;
 }
 
 .NavLinksh2 {
     margin-left: 30px;
+    bottom: 5vh;
 }
 
 .footerimg {
